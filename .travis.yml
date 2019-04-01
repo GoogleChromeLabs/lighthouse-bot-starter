@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+ - "8.1.3"
+install:
+ - npm install
+before_script:
+ - npm install -g firebase-tools
+script:
+ - webpack
